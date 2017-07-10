@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body background="water.jpg">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+<title>Jacqueline's About Me</title>
+
+</head>
+<link rel="stylesheet" type="text/css" href="about me css.css">
+<body>
+<center>
+<div class="name">
+<h1>Jacqueline Chin</h1></div>
+
+
+<div class="space"></div>
+<div class="space2"></div>
+      <img src="fruit.png" alt="" />
+
+
+
+</div>
+<h2><span>Welcome!<br />Thanks For Reading!</span></h2>
+<p> Name: Jacqueline Chin</p>
+<p> Date of Birth: 29-01-2000</p>
+
+<div class="words">
+<div style="width:1000px;">
+  	My name is Jacqueline Chin and I am 17 years old. I was born in Miami, FL. Currently, I am attending
+Archimedean Upper Conservatory. I am a rising senior and I hope to attend Boston University or Rice
+University in the fall of 2018. I am interested in studying biomedical engineering and eventually becoming
+a doctor.
+ My favorite thing to do would be to travel. If i could just spend my time traveling i would.
+I enjoy going to new places and seeing landmarks that make each place unique. I also enjoy
+photography.
+<p>Click <a href="https://www.instagram.com/jacquelinec_">here</a> for Jacqueline's Instagram<p>
+<h3>Fun Fact!</h3>
+<p> My favorite city in the world is London, England and I hope to live and work there some day</p>
+</div>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+<p id="lala">When is my birthday? Click the button to check your answer.</p>
+
+<button type="button" onclick='document.getElementById("lala").innerHTML = "January 29, 2000. Did you get it?"'>Click Me!</button>
+
+
+  <div class="nav3" style="height:705px;">
+     <a href="https://www.instagram.com/jacquelinec_" class="icons"><img src="insta.png"></a>
+     <a href="https://twitter.com/jacqueline_c_25" class="icons"><img src="twit.png"></a>
+ </div>
+
+</center>
+
+</body>
+
+</html>
