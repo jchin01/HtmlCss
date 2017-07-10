@@ -38,6 +38,14 @@ photography.
 <h3>Fun Fact!</h3>
 <p> My favorite city in the world is London, England and I hope to live and work there some day</p>
 </div>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+<p id="lala">When is my birthday? Click the button to check your answer.</p>
+
+<button type="button" onclick='document.getElementById("lala").innerHTML = "January 29, 2000. Did you get it?"'>Click Me!</button>
 </center>
 </body>
 </html>
